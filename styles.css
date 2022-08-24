@@ -27,8 +27,7 @@ body {
     flex: 1;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 220px;
-    
+    margin-left: 220px;  
 }
 
 .links {
@@ -41,6 +40,11 @@ body {
     align-self: center;
     margin-right: 15%;
     font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .hero-container {
@@ -87,7 +91,7 @@ body {
 .placeholder {
     width: 40%;
     height: 230px;
-    background-color: darkgrey;
+    background-color: grey;
     
     display: flex;
     justify-content: center;
@@ -158,7 +162,6 @@ body {
     background-color: #3882F6;;
     gap: 80px;
     border-radius: 10px;
-    border: 1px black solid;
     align-items: center;
 }
 
