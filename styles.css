@@ -11,6 +11,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+
 .header {
 
     background-color: #1F2937;
@@ -59,7 +61,6 @@ a {
 
 .hero {
     width: 40%;
-    height: 230px;
     padding: 10px 20px;
 
     display: flex;
@@ -70,6 +71,7 @@ a {
 .hero > h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    flex-shrink: 0;
 }
 
 .hero > p {
