@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    border: white 1px solid;
+
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -23,12 +23,12 @@ body {
 
 .logo {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex: 1;
     font-size: 24px;
     font-weight: bold;
-    margin-left: -150px;
+    margin-left: 220px;
+    
 }
 
 .links {
@@ -41,4 +41,58 @@ body {
     align-self: center;
     margin-right: 15%;
     font-size: 16px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 80px 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 40%;
+    height: 230px;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero > h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    padding: 5px 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.first {
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+.placeholder {
+    width: 40%;
+    height: 230px;
+    background-color: darkgrey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
