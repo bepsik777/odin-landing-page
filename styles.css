@@ -94,5 +94,33 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.banner-container > h2 {
+    margin: -10px auto 30px auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner-element {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: #3882F6 2px solid;
+    border-radius: 10px;
 }
